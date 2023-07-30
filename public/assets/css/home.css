@@ -1,0 +1,101 @@
+ body{
+    background-color: #001220 !important;
+} 
+
+.second-container .btn, .btn{
+    background-color: #FF8264 !important;
+    font-weight: bolder !important;
+}
+
+.story-card{
+    background-color: #64646421;
+    border-radius: 5px 5px 0px 0px;
+    height: 450px;
+}
+
+#story-name{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+#story-desc{
+    font-size: .9em;
+}
+
+#story-image{
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    object-fit: contain !important; 
+}
+
+#story-interact{
+    background: #00182b;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 1.5em !important;
+    padding: 5px 20px 5px 20px;
+}
+
+#story-interact i:hover{
+    transform: scale(1.1);
+}
+
+.snap-count{
+    background-color: #FF8264;
+    padding: 0px 8px 0px 8px;
+    border-radius: 3px;
+}
+
+.fa-heart{
+    color: #FF8264;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition:  ease-in-out .3s !important;
+}
+
+
+.heart-button{
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+#suggestions {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    width: 94%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    color: #000 !important;
+}
+
+#suggestions li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #f1f1f1;
+}
+
+.modal-content{
+    color: #fff !important;
+    background-color: #001220 !important;
+}
+
+.modal-header{
+    border-bottom: #011e35 solid 1px !important;
+}
+
+.modal-footer{
+    border-top: #011e35 solid 1px !important;
+}

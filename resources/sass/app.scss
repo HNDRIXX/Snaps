@@ -1,0 +1,41 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.navbar{
+    background-color: #001220;
+    border-bottom: #727272e5 solid 1px;
+}
+
+.login-card, .register-card{
+    background-color: #001220b6;
+    border: #727272e5 solid 1px;
+    color: #fff;
+
+    label{
+        font-weight: 500;
+    }
+
+    input{
+        border: #b8b8b8e5 solid 1px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+.bg-color{
+    background: #FF8264 !important;
+}
